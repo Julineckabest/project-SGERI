@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Antic+Slab&display=swap" rel="stylesheet">>
+    <title>SGERI</title>
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="wrapper">
+        <div id=header>
+            <h1 class="headerh1">The Scottish Global Environment Research Institute</h1>
+            <img class="head-picture" alt="planet-eco" height="200" src="images/head-pic.png" width=
+            "200">
+            <nav>
+                    <a href="about-us.html">About Us</a>
+                    <div class="dropdown">
+                      <button class="dropbtn">Key Areas 
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="pollution.html">Pollution</a>
+                        <a href="global-warming.html">Global Warming</a>
+                        <a href="waste-disposal.html">Waste Disposal</a>
+                    </div>
+                </div> 
+                    <a href="events.html">Events</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Contact Us 
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="contact-us.html">Contact Us</a>
+                          <a href="work-with-us.html">Work With Us</a>
+                        </div>
+                    </div> 
+                  
+                   
+            </nav>
+        </div>
+        <main>
+
+            <div class="container">
+        
+                <div class="left-div">
+                    <h3>Is the climate warming ? </h3>
+                    <p> Yes it is ! The average of Earth temperature has increased by about 1°C since 1900.
+                        The clearest evidence for surface warming comes from widespread thermometer records that, 
+                        in some places, extend back to the late 19th century. </p>
+                    <html>
+                        <head>
+                            <title>Global average temperatures (°C) </title>
+                            <p>The latest data confirms 2020 concludes the earth’s warmest 10-year period on record.
+
+                                The HadCRUT5 global temperature series, produced by the Met Office, University of East Anglia and UK National Centre for Atmospheric Science, shows that the average for 2020 as a whole was 1.28±0.08°C above pre-industrial levels, taken as the average over the period 1850-1900. This makes 2020 nominally the second warmest year in the dataset’s record.</p>
+                                <p><em>Source: https://www.metoffice.gov.uk/</em></p>
+                            <h3>Global average temperatures (°C) </h3>
+                            <meta name="description" content="chart created using amCharts live editor" />
+                            
+                            <!-- amCharts javascript sources -->
+                            <script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+                            <script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+                            <script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+                            
+                    
+                            <!-- amCharts javascript code -->
+                            <script type="text/javascript">
+                                AmCharts.makeChart("chartdiv",
+                                    {
+                                        "type": "serial",
+                                        "categoryField": "category",
+                                        "autoMarginOffset": 40,
+                                        "marginRight": 60,
+                                        "marginTop": 60,
+                                        "startEffect": "easeOutSine",
+                                        "color": "#008000",
+                                        "fontSize": 13,
+                                        "theme": "light",
+                                        "categoryAxis": {
+                                            "gridPosition": "start"
+                                        },
+                                        "trendLines": [],
+                                        "graphs": [
+                                            {
+                                                "balloonText": "[[title]] of [[category]]:[[value]]",
+                                                "bullet": "round",
+                                                "bulletSize": 10,
+                                                "id": "AmGraph-1",
+                                                "lineAlpha": 1,
+                                                "lineThickness": 3,
+                                                "title": "graph 1",
+                                                "type": "smoothedLine",
+                                                "valueField": "column-1"
+                                            }
+                                        ],
+                                        "guides": [],
+                                        "valueAxes": [
+                                            {
+                                                "id": "ValueAxis-1",
+                                                "title": ""
+                                            },
+                                            {
+                                                "axisFrequency": 0,
+                                                "id": "ValueAxis-2",
+                                                "autoRotateCount": 0
+                                            }
+                                        ],
+                                        "allLabels": [],
+                                        "balloon": {
+                                            "maxWidth": 0,
+                                            "offsetX": 3
+                                        },
+                                        "titles": [],
+                                        "dataProvider": [
+                                            {
+                                                "category": "2010",
+                                                "column-1": "1.04"
+                                            },
+                                            {
+                                                "category": "2011",
+                                                "column-1": "0.89"
+                                            },
+                                            {
+                                                "category": "2012",
+                                                "column-1": "0.93"
+                                            },
+                                            {
+                                                "category": "2013",
+                                                "column-1": "0.98"
+                                            },
+                                            {
+                                                "category": "2014",
+                                                "column-1": "1.03"
+                                            },
+                                            {
+                                                "category": "2015",
+                                                "column-1": "1.18"
+                                            },
+                                            {
+                                                "category": "2016",
+                                                "column-1": "1.29"
+                                            },
+                                            {
+                                                "category": "2017",
+                                                "column-1": "1.20"
+                                            },
+                                            {
+                                                "category": "2018",
+                                                "column-1": "1.12"
+                                            },
+                                            {
+                                                "category": "2019",
+                                                "column-1": "1.25"
+                                            },
+                                            {
+                                                "category": "2020",
+                                                "column-1": "1.28"
+                                            }
+                                        ]
+                                    }
+                                );
+                            </script>
+                        </head>
+                        <body>
+                            <div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+                        </body>
+                    </html>
+    
+
+                </div>
+                <div class="right-div">
+                    <img class="global-warming" alt="gl-war" height="300" src="images/climate-warming1.jpg" width=
+            "500">
+                    <p>Our entire economy is driven by the greatest cause of global warming: the fossil fuel industry. Any diplomatic attempt or economic reform to date that has sought to significantly cut back on the use of fossil energy sources has sooner or later failed. Even today, 
+                        coal and oil are the two key fuels for humankind. Therefore, it is important to handle climate change as not just a scientific issue. Understanding the connection between the use of fossil energy and changes in social conditions is the only way to bring a real difference in climate action.</p>
+                        <p><em>Source:https://wilderness-society.org/</em></p>
+                        <h4><strong>How to actually help to fight the climate warming ? </strong></h4>
+                        <ul>
+                            <li>Plant a tree ! - Trees absorb a carbon and help with soil health, water retention and so much more !</li>
+                            <li>Create a more sustainable transportation habits ! - For example, offer rideshare, instead of private transport to your work..</li>
+                            <li>Lower your heating bills !</li>
+                          </ul>
+                          
+                          <a class="back-icon" href="index.html"><img src="images/icon-back.png" alt="back-icon" style="width:42px;height:42px;"></a>
+
+                </div>
+            </div>
+
+        </main>
+
+        <div id=footer>
+            <p class="footer-text"> &copy; 2021 Julie Jancickova</p>
+        </div>
+    </div>
+</body>
+</html>
